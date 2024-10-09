@@ -1,0 +1,83 @@
+.accordion {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.accordion-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+.accordion-tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    border: 1px solid #ddd;
+    transform: scale(1);
+    position: relative;
+}
+.accordion-tab:not(:last-child) {
+    border-right: none;
+}
+.accordion-tab:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.accordion-tab:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.accordion-tab:hover {
+    background-color: #F77F00;
+    color: #fff;
+    transform: scale(1.1);
+    z-index: 2;
+}
+.accordion-tab.active {
+    background-color: #F77F00;
+    color: #fff;
+}
+.accordion-tab.active:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.accordion-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.accordion-content.active {
+    display: block;
+}
+
+.schedule-list-box {
+    transition: all 0.3s ease-in-out;
+}
+
+.schedule-list-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-tab[data-tab="2"]:hover, .accordion-tab[data-tab="2"].active { 
+    background-color: #009E60;
+    color: #fff; /
+}
+
+.hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition pour l'effet */
+}
+
+.hover-effect:hover {
+    transform: scale(1.05); /* Augmente la taille */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
