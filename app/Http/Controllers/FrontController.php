@@ -14,6 +14,10 @@ class FrontController extends Controller
         return view('front.about');
     }
 
+    public function activities(){
+        return view('front.activities');
+    }
+
     public function panelistes(){
         return view('front.panelistes');
     }

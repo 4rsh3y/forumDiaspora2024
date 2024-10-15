@@ -6,6 +6,7 @@ use App\Http\Controllers\InscriptionController;
 
 Route::get('/', [FrontController::class, 'index'])->name('Accueil');
 Route::get('/about', [FrontController::class, 'about'])->name('Apropos');
+Route::get('/activities', [FrontController::class, 'activities'])->name('Activities');
 Route::get('/panelistes', [FrontController::class, 'panelistes'])->name('Panelistes');
 Route::get('/schedule', [FrontController::class, 'calendrier'])->name('calendrier');
 Route::get('/stands', [FrontController::class, 'stands'])->name('stands');

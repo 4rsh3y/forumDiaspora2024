@@ -1,6 +1,6 @@
 @extends('layout-app')
 
-@section('title', 'Nos panelistes Forum 2024')
+@section('title', 'Nos panelistes Forum de la Diaspora Ivoirienne 2024')
 
 @section('content')
 
@@ -14,9 +14,15 @@
         </div>
     </section>
 
+    <div id="speakers"></div>
+
     <section class="speakers">
         <div class="container">
             <div class="speaker-inner">
+                <div class="partner-title text-center pb-6 w-lg-60 m-auto">
+                    <p class="mb-1 pink">Nos panelistes</p>
+                    <h2 class="mb-1">Découvrez nos différents Panelistes</h2>
+                </div>
                 <div class="sepaker-list text-center text-white">
                     <div class="row">
                         <div class=" col-lg-3 col-md-6 p-2">
@@ -129,33 +135,10 @@
         </div>
     </section>
 
-    <section class="ticket position-relative">
-        <div class="overlay">
-        </div>
-        <div class="container">
-            <div class="ticket-inner w-lg-75 mx-auto text-center position-relative text-white text-shadow">
-                <div class="ticket-title">
-                    <h5 class="text-white mb-1">LET'S DO IT HURRY</h5>
-                    <h1 class="text-white mb-2">HAVEN'T BOOKED YOUR SEAT YET?
-                        <span class="spin pink d-inline-block">G</span><span
-                            class="spin pink d-inline-block">E</span><span class="spin pink d-inline-block">T</span>
-                        <span class="spin pink d-inline-block">T</span><span
-                            class="spin pink d-inline-block">I</span><span
-                            class="spin pink d-inline-block">C</span><span
-                            class="spin pink d-inline-block">K</span><span
-                            class="spin pink d-inline-block">E</span><span class="spin pink d-inline-block">T</span>
-                    </h1>
-                </div>
-                <div class="ticket-info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                        mattis, pulvinar dapibus leo.</p>
-                    <div class="ticket-button">
-                        <a class="btn btn1" href="book-now.html">GET TICKETS NOW</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <x-infobanner></x-infobanner>
+
+
+    <div id="partners"></div>
 
     <section class="partners">
         <div class="container">
@@ -163,7 +146,6 @@
                 <div class="partner-title text-center pb-6 w-lg-60 m-auto">
                     <p class="mb-1 pink">Partenariats</p>
                     <h2 class="mb-1">Ils ont bien voulu nous accompagner</h2>
-
                 </div>
                 <div class="partner-img pb-6">
                     <div class="row row-cols-1 row-cols-lg-5 row-cols-md-5 ">

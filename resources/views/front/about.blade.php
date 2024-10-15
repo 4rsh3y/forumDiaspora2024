@@ -1,6 +1,6 @@
 @extends('layout-app')
 
-@section('title', 'Concernant le Forum 2024')
+@section('title', 'Concernant le Forum de la Diaspora Ivoirienne 2024')
 
 @section('content')
 
@@ -26,11 +26,15 @@
 
                 <div class="col-lg-8">
                     <div class="news-left">
+                        <div class="banner-title pb-3">
+                            <h3 class=" text-center pb-3">Forum de la <span class="pink">DIASPORA Ivoirienne</span>
+                                2024</h3>
+                        </div>
                         <div class="news-img mb-4">
                             <img src="{{asset('https://placehold.co/1920x850') }}" alt="" class="w-100 rounded shadow mb-4">
                         </div>
                         <div class="news-description pb-4">
-                            <h4 class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
+                            
                             <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute

@@ -3,7 +3,9 @@
     <div class="container">
         <div class="footer-content w-lg-50 m-auto">
             <div class="footer-logo mb-4 pt-1">
-                <a href="index-2.html"><img src="assets/images/logo/1.png" class="w-50" alt="footer-logo"></a>
+                <a href="{{route("Accueil")}}">
+                    <img src="assets/images/logo/1.png" class="w-100" alt="footer-logo">
+                </a>
             </div>
             <div class="footer-disciption border-bottom border-white border-opacity-25 m-auto mb-6">
                
@@ -11,10 +13,10 @@
             <div class="footer-menu pb-9">
                 <ul class="p-0 m-0">
                     <li class="d-inline mx-2"><a href="{{route('Accueil')}}"><small>Accueil</small></a></li>
-                    <li class="d-inline mx-2"><a href=""><small>Nos panelistes</small></a></li>
-                    <li class="d-inline mx-2"><a href=""><small>Calendrier & activités</small></a></li>
+                    <li class="d-inline mx-2"><a href="{{route('Panelistes')}}"><small>Nos panelistes</small></a></li>
+                    <li class="d-inline mx-2"><a href="{{route('Activities')}}"><small>Calendrier & activités</small></a></li>
                     {{-- <li class="d-inline mx-2"><a href=""><small>Partenaires</small></a></li> --}}
-                    <li class="d-inline mx-2"><a href=""><small>Contact</small></a></li>
+                    <li class="d-inline mx-2"><a href="{{route("contact")}}"><small>Contact</small></a></li>
                 </ul>
             </div>
         </div>

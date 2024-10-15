@@ -25,15 +25,7 @@
                 <div class="header-content-inner py-2">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <div class="social-links ">
-                                <ul class="m-0 p-0">
-                                    <li class="d-inline">
-                                        <a href="#">
-                                            <i class="fa fa-facebook border-social rounded-circle text-center"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            
                         </div>
                         <div class="col-lg-6">
                             <div class="header-event-info text-end">

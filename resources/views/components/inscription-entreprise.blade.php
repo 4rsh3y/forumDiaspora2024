@@ -1,7 +1,7 @@
 <div class="contact-form">
     <div class="form-title mb-4">
         <h4 class="mb-1">Cette section est réservé aux <span class="text-blue">Entreprises </span> ? </h4>
-        <p>
+        <p class="text-danger">
             Vérifier s'il vous plaît que vous êtes dans la bonne section avant de remplis le formulaire merci bien !
         </p>
     </div>

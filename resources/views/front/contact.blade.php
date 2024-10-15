@@ -1,6 +1,6 @@
 @extends('layout-app')
 
-@section('title', 'Contact Forum 2024')
+@section('title', 'Contact Forum de la Diaspora Ivoirienne 2024')
 
 @section('content')
 
