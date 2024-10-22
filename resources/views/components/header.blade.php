@@ -91,11 +91,11 @@
                                                     href="{{route('b2b')}}">Les B2B
                                                 </a>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a class="dropdown-item py-3 px-6 text-capitalize black border-0"
                                                     href="{{route('b2g')}}"> Les B2G
                                                 </a>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <a class="dropdown-item py-3 px-6 text-capitalize black border-0"
                                                     href="{{route('tables-rondes')}}">Les Tables rondes

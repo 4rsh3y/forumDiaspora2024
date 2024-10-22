@@ -21,8 +21,8 @@
             <div class="ticket-info">
                 <p class="text-shadow">Inscrivez-vous selon votre profil pour participez au Forum</p>
                 <div class="ticket-button">
-                    <a class="btn btn1 mr-2" href="{{route('inscriptions')}}">Particulier</a>
-                    <a class="btn btn3 ml-2" href="{{route('inscriptions')}}">Entreprise</a>
+                    <a class="btn btn1 mr-2" href="{{route('inscriptions')}}">INSCRIPTION</a>
+                    <!-- <a class="btn btn3 ml-2" href="{{route('inscriptions')}}">Entreprise</a> -->
                 </div>
             </div>
         </div>

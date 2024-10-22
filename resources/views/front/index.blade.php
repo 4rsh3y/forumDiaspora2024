@@ -99,14 +99,8 @@
                                     <p class="mb-1 pink">L'évènement</p>
                                     <h2 class="mb-2">Bienvenu au Forum de la <span class="pink">DIASPORA
                                             IVOIRIENNE</span> 2024</h2>
-                                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                        laboris nisi ut
-                                        aliquip ex ea commodo consequat.</P>
-                                    <p class="mb-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                        officia deserunt
-                                        mollit anim id est laborum...</p>
+                                    <p class="p-justify">La Diaspora ivoirienne représente une force vive significative, constituée d'environ un million deux cent quarante milles (1.240.000) personnes. Ces Ivoiriens établis hors de la Côte d'Ivoire sont des acteurs clés du développement national, contribuant à l'économie par le biais des transferts de fonds, des investissements directs et de l'import-export.</p>
+                                    <p class="mb-2">Le Président de la République <span class="fw-semibold pink">SEM Alassane OUATTARA</span>, conscient de l'importance et de la force vive que représente notre Diaspora,...</p>
                                     <p class="text-center">
                                         <a class="btn btn3" href="{{ route('Apropos') }}">Lire plus</a>
                                     </p>
@@ -155,17 +149,17 @@
                                         <div class="container-img-left mb-2">
                                             <div class="img-left-1 float-end w-lg-80">
                                                 <img class="mb-2 w-100 rounded"
-                                                    src="{{ asset('https://placehold.co/1094x730') }}" alt="group-image">
+                                                    src="{{ asset('assets/images/fodiv24/5.jpg') }}" alt="group-image">
                                             </div>
                                             <div class="img-left-2">
-                                                <img src="{{ asset('https://placehold.co/922x922') }}" alt="group-image"
+                                                <img src="{{ asset('assets/images/fodiv24/1.jpg') }}" alt="group-image"
                                                     class="w-100 rounded">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="container-img-right w-lg-75">
-                                            <img src="{{ asset('https://placehold.co/971x1456') }}" alt="group-image"
+                                            <img src="{{ asset('assets/images/fodiv24/5.jpg') }}" alt="group-image"
                                                 class="w-100 rounded">
                                         </div>
                                     </div>
@@ -293,15 +287,15 @@
                                 <div class="col-lg-3 col-md-3 p-2">
                                     <div class="p-2">
                                         <h1 class="text-white m-0"><span class="num"
-                                                data-val="10"></span><span>+</span>
+                                                data-val="3"></span><span>+</span>
                                         </h1>
-                                        <p class="mb-0">B2G et B2B</p>
+                                        <p class="mb-0">Tables rondes</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="feature-lists pt-8">
+                    <!-- <div class="feature-lists pt-8">
                         <div class="row g-4">
                             <div class="col-lg-3 col-md-6">
                                 <div class="feature-box py-7 px-6 rounded text bg-black bg-opacity-25">
@@ -434,9 +428,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="partner-button text-center mt-5">
-                        <a class="btn mt-5" href="{{ route('Activities') }}">Découvrir la liste complète</a>
+                        <a class="btn mt-5" href="{{ route('Activities') }}">En savoir plus </a>
                     </div>
                 </div>
             </div>
@@ -534,66 +528,571 @@
                             </div>
                             <div class="accordion-content active shadow" data-content="1">
                                 <div class="schedule-list text-center text-sm-start ">
-                                    <div
-                                        class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
                                         <div class="schedule-box-title">
                                             <h5 class="mb-2">
                                                 <a class="black">
-                                                    Lorem Ipsum
+                                                    <i class="fa fa-users" aria-hidden="true"></i> Accueil des participants
                                                 </a>
                                             </h5>
                                         </div>
                                         <div class="schedule-box-info">
                                             <ul class="mb-2 p-0">
                                                 <li class="d-inline"><i class="fa fa-clock-o pink me-2"
-                                                        aria-hidden="true"></i><small>08:30 -
-                                                        09:30 AM</small></li>
+                                                        aria-hidden="true"></i><small>08:00 -
+                                                        09:45 </small></li>
                                                 <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
-                                                        aria-hidden="true"></i><small>Exploration Hall</small></li>
+                                                        aria-hidden="true"></i><small>Salle 2000 places Fondation FHB</small></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div
-                                        class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
                                         <div class="schedule-box-title">
                                             <h5 class="mb-2">
                                                 <a class="black">
-                                                    Lorem Ipsum
+                                                   <i class="fa fa-diamond" aria-hidden="true"></i>  Accueil des personnalités
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                    <small>
+                                                        Des guides seront disponibles pour accompagner les personnalités à la salle VIP de la Fondation Félix HOUPHOUËT-BOIGNY pour la Recherche de la Paix.
+                                                    </small> 
+                                                    <br>
+                                                    <small>
+                                                        Les personnalités seront ensuite accueillies par les organisateurs du Forum et d'autres hauts responsables pour l'ouverture du Forum à la salle 2000 places.
+                                                    </small>
+                                                </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>09:45 -
+                                                        10:00</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>Salle 2000 places Fondation FHB</small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-meetup" aria-hidden="true"></i> Cérémonies d'ouverture
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                Discours :
+                                                        <ul class="decal-2">
+                                                            <li>
+                                                                <span class="fw-semibold black">M. Anzoumana OUATTARA</span>, Rapporteur Général de la CREIHCI du Sénat.
+                                                            </li>
+                                                            <li>
+                                                                <span class="fw-semibold black">Mme Wongbé Christiane Maria DION-GOKAN</span>, Lauréate prix d'Excellence du meilleur Ivoirien de la Diaspora, Porte-parole de la Diaspora.
+                                                            </li>
+                                                            <li>
+                                                                <span class="fw-semibold black">M. Kacou Houadja Léon ADOM</span>, Ministre des Affaires Etrangères, de l'Intégration Africaine et des Ivoiriens de l'Extérieur.
+                                                            </li>
+                                                            <li>
+                                                                <span class="fw-semibold black">Mme Kandia Kamissoko CAMARA</span>, Présidente du Sénat de Côte d'Ivoire.
+                                                            </li>
+                                                            <li>
+                                                                <span class="fw-semibold black">S.E.M. Alassane OUATTARA</span>, Président de la République de Côte d'Ivoire.
+                                                            </li>
+                                                        </ul>
+                                                </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>10:00 -
+                                                        11:00</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>Salle 2000 places Fondation FHB</small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                            <div class="schedule-box-title">
+                                                <h5 class="mb-2">
+                                                    <a class="black">
+                                                       <i class="fa fa-camera" aria-hidden="true"></i> Photo de groupe
+                                                    </a>
+                                                </h5>
+                                                <p class="p-justify decal-2">
+                                                        <small>
+                                                        Les photographes officiels ne seront autorisés à accéder à la Salle qu'au tout début de la séance inaugurale. Un tour image, encadré par l'équipe organisatrice, leur sera proposé avant le début de la séance inaugurale.
+                                                        </small> 
+                                                        <br>
+                                                        <small>
+                                                        A la fin de la séance inaugurale, l'ensemble des participants sera invité à prendre une photo à l'entrée du hall de la Fondation Félix HOUPHOUËT-BOIGNY pour la Recherche de la Paix. 
+                                                        </small>
+                                                    </p>
+                                            </div>
+                                            <div class="schedule-box-info">
+                                                <ul class="mb-2 p-0">
+                                                    <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                            aria-hidden="true"></i><small>11:00 -
+                                                            11:10</small></li>
+                                                    <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                            aria-hidden="true"></i><small>R.0 de la Fondation FHB</small></li>
+                                                </ul>
+                                            </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                            <div class="schedule-box-title">
+                                                <h5 class="mb-2">
+                                                    <a class="black">
+                                                       <i class="fa fa-newspaper-o" aria-hidden="true"></i> Point de presse
+                                                    </a>
+                                                </h5>
+                                                <p class="p-justify decal-2">
+                                                        <small>
+                                                        S.E. Mme la Présidente du Sénat et Monsieur le Ministre des Affaires Etrangères, de l'Intégration Africaine et des Ivoiriens de l'Extérieur animeront conjointement un point de presse ayant pour but de présenter les principaux thèmes et objectifs abordés durant l'évènement ainsi que les attentes des organisateurs.
+                                                        </small> 
+                                                    </p>
+                                            </div>
+                                            <div class="schedule-box-info">
+                                                <ul class="mb-2 p-0">
+                                                    <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                            aria-hidden="true"></i><small>11:10 -
+                                                            11:20</small></li>
+                                                    <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                            aria-hidden="true"></i><small>Hall de R.0 de la Fondation FHB </small></li>
+                                                </ul>
+                                            </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-shopping-bag" aria-hidden="true"></i> Visite des stands
                                                 </a>
                                             </h5>
                                         </div>
                                         <div class="schedule-box-info">
                                             <ul class="mb-2 p-0">
                                                 <li class="d-inline"><i class="fa fa-clock-o pink me-2"
-                                                        aria-hidden="true"></i><small>08:30 -
-                                                        09:30 AM</small></li>
+                                                        aria-hidden="true"></i><small>11:20 -
+                                                        11:45</small></li>
                                                 <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
-                                                        aria-hidden="true"></i><small>Exploration Hall</small></li>
+                                                        aria-hidden="true"></i><small>Entrée principale de la Fondation FHB </small></li>
                                             </ul>
                                         </div>
                                     </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-coffee" aria-hidden="true"></i> Pause-Café
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>11:45 -
+                                                        12:00</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>R-1 de la Fondation FH </small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-comments" aria-hidden="true"></i> LES COMMUNICATIONS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                        <ul class="decal-2">
+                                                            <li>
+                                                                <span class="">Communication 1 : </span>Le Sénat et la Représentation des Ivoiriens Établis Hors de Côte d'Ivoire <br>
+                                                                <sub>Intervenant: M. Anzoumana OUATTARA, Rapporteur Général de la CREIHCI du Sénat.</sub>
+                                                            </li>
+                                                            <li>
+                                                                <span class="">Communication 2 :</span>Rôle de la Diaspora en tant qu'acteur de Développement pour les pays africains <br>
+                                                                <sub>Intervenant : Dr. Gaoussou KARAMOKO, Directeur Général des Ivoiriens de l'Extérieur.</sub>
+                                                            </li>
+                                                        </ul>
+                                                </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>12:05 -
+                                                        12:20</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>Salle 400 places Fondation FHB </small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                  <i class="fa fa-cutlery" aria-hidden="true"></i>  DÉJEUNER
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>12:25 -
+                                                        13:50</small></li>
+                                                <!-- <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>R-1 de la Fondation FH </small></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> LES PANELS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                <ul class="decal-2">
+                                                    <li>
+                                                        <span class="">Keynote speech : </span>Dr Eugène Aouélé AKA, Président du CESEC, Président du Conseil Régional du Sud-Comoé, Président de l'ARDCI.
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 1 : </span>Attractivité des territoires et développement local</sub>
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 2 :</span>Mécanismes d'appui à la diaspora
+                                                    </li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>14:10 -
+                                                        16:15</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>Salle 400 places Fondation FHB </small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-coffee" aria-hidden="true"></i> PAUSE-CAFÉ
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>16:20 -
+                                                        16:35</small></li>
+                                                <!-- <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>R-1 de la Fondation FH </small></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> LES PANELS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                <ul class="decal-2">
+                                                    <li>
+                                                        <span class="">Keynote speech : </span>M. Stanislas ZEZE, Président Directeur Général Bloomfield
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 3 : </span>Diaspora et Investissement en Côte d'Ivoire</sub>
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 4 :</span>Développement durable et Diaspora
+
+                                                    </li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline">
+                                                    <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                    <small>16:50 - 19:15</small>
+                                                </li>
+                                                <li class="d-inline">
+                                                    <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                    <small>Salle 400 places Fondation FHB </small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                   <i class="fa fa-cutlery" aria-hidden="true"></i> DINER GALA
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline"><i class="fa fa-clock-o pink me-2"
+                                                        aria-hidden="true"></i><small>20:30 -
+                                                        23:00</small></li>
+                                                <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
+                                                        aria-hidden="true"></i><small>Hôtel HP Resort</small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
+
+
                             <div class="accordion-content shadow" data-content="2">
-                                <div
-                                    class=" schedule-list-box bg-lightgrey   border border-white border-2 rounded px-6 py-4 mb-5">
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
                                     <div class="schedule-box-title">
                                         <h5 class="mb-2">
                                             <a class="black">
-                                                Lorem Ipsum
+                                               <i class="fa fa-coffee" aria-hidden="true"></i> petit déjeuner
                                             </a>
                                         </h5>
                                     </div>
                                     <div class="schedule-box-info">
                                         <ul class="mb-2 p-0">
-                                            <li class="d-inline"><i class="fa fa-clock-o pink me-2"
-                                                    aria-hidden="true"></i><small>08:30 -
-                                                    09:30 AM</small></li>
-                                            <li class="d-inline"><i class="fa fa-thumb-tack pink mx-2"
-                                                    aria-hidden="true"></i><small>Exploration Hall</small></li>
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>07:30 - 08:30</small>
+                                            </li>
+                                            <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Hôtel HP Resort</small>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i>  LES PANELS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                <ul class="decal-2">
+                                                    <li>
+                                                        <span class="">Panel 5 : </span>Attentes de la Diaspora vis-à-vis des institutions de la République
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 6 :</span>Nouvelles Technologies et valorisation du potentiel de la Diaspora
+
+                                                    </li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline">
+                                                    <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                    <small>09:00 - 11:20</small>
+                                                </li>
+                                                <li class="d-inline">
+                                                    <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                    <small>Salle 400 places Fondation FHB </small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i>  LES PANELS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                <ul class="decal-2">
+                                                    <li>
+                                                        <span class="">Keynote speech : </span>M.  Siaka SYLLA, Consultant Spécialiste en Immigration et en Citoyenneté (CISR).
+                                                    </li>
+                                                    <li>
+                                                        <span class="">Panel 7 : </span>Rôle des Ambassadeurs, Consuls généraux et acteurs des réseaux influents dans la mobilisation de la diaspora 
+                                                    </li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline">
+                                                    <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                    <small>11:30 - 12:25</small>
+                                                </li>
+                                                <li class="d-inline">
+                                                    <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                    <small>Salle 400 places Fondation FHB </small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                    <div class="schedule-box-title">
+                                        <h5 class="mb-2">
+                                            <a class="black">
+                                               <i class="fa fa-coffee" aria-hidden="true"></i> PAUSE-CAFÉ
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="schedule-box-info">
+                                        <ul class="mb-2 p-0">
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>12:30 - 12:45</small>
+                                            </li>
+                                            <!-- <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Hôtel HP Resort</small>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                        <div class="schedule-box-title">
+                                            <h5 class="mb-2">
+                                                <a class="black">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i>  LES PANELS
+                                                </a>
+                                            </h5>
+                                            <p class="p-justify decal-2">
+                                                <ul class="decal-2">
+                                                    <li>
+                                                        <span class="">Panel 8 : </span>Industries culturelle et sportive comme vecteurs de développement économique et social
+                                                    </li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="schedule-box-info">
+                                            <ul class="mb-2 p-0">
+                                                <li class="d-inline">
+                                                    <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                    <small>12:50 - 13:50</small>
+                                                </li>
+                                                <li class="d-inline">
+                                                    <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                    <small>Salle 400 places Fondation FHB </small>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                    <div class="schedule-box-title">
+                                        <h5 class="mb-2">
+                                            <a class="black">
+                                               <i class="fa fa-cutlery" aria-hidden="true"></i> DÉJEUNER
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="schedule-box-info">
+                                        <ul class="mb-2 p-0">
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>13:55 - 14:55</small>
+                                            </li>
+                                            <!-- <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Hôtel HP Resort</small>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                    <div class="schedule-box-title">
+                                        <h5 class="mb-2">
+                                            <a class="black">
+                                               <i class="fa fa-files-o" aria-hidden="true"></i> PRÉSENTATION DU RAPPORT GÉNÉRAL
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="schedule-box-info">
+                                        <ul class="mb-2 p-0">
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>15:00 - 15:10</small>
+                                            </li>
+                                            <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Salle 400 places Fondation FHB </small>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                    <div class="schedule-box-title">
+                                        <h5 class="mb-2">
+                                            <a class="black">
+                                               <i class="fa fa-handshake-o" aria-hidden="true"></i> MOTION DE REMERCIEMENT DES PARTICIPANTS A LA PRÉSIDENTE DU SENAT
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="schedule-box-info">
+                                        <ul class="mb-2 p-0">
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>15:15 - 15:25</small>
+                                            </li>
+                                            <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Salle 400 places Fondation FHB </small>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="schedule-list-box bg-lightgrey border border-white border-2 rounded px-6 py-4 mb-5 hover:scale-105 transition-transform duration-300">
+                                    <div class="schedule-box-title">
+                                        <h5 class="mb-2">
+                                            <a class="black">
+                                              <i class="fa fa-hourglass" aria-hidden="true"></i>  DISCOURS DE CLÔTURE DE LA PRÉSIDENTE DU SENAT
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    <div class="schedule-box-info">
+                                        <ul class="mb-2 p-0">
+                                            <li class="d-inline">
+                                                <i class="fa fa-clock-o pink me-2" aria-hidden="true"></i>
+                                                <small>15:30 - 16:00</small>
+                                            </li>
+                                            <li class="d-inline">
+                                                <i class="fa fa-thumb-tack pink mx-2" aria-hidden="true"></i>
+                                                <small>Salle 400 places Fondation FHB </small>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -607,24 +1106,8 @@
                     <p class="mb-1  pink">Retour d'expérience</p>
                     <h2 class="mb-1">témoignages des anciens participants</h2>
                 </div>
+
                 <div class="slider testimonial-slide">
-                    <div class="box1 mx-4 p-6 rounded bg-white">
-                        <div class="testimonial-content position-relative">
-                            <i class="fa fa-quote-left position-absolute" aria-hidden="true"></i>
-                            <p class="my-6 position-relative w-md-75 m-6">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed
-                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="testimonial-bio d-flex align-items-center">
-                            <img src="{{ asset('https://placehold.co/100') }}" alt
-                                class="bio-img me-5 rounded-circle float-start">
-                            <div>
-                                <p class="mb-1 fw-semibold black">DANIEL FRANKIE</p>
-                                <p>Manager</p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="box1 mx-4 p-6 rounded bg-white">
                         <div class="testimonial-content position-relative">
                             <i class="fa fa-quote-left position-absolute" aria-hidden="true"></i>
@@ -686,7 +1169,7 @@
             <div class="container">
                 <div>
                     <div class="row">
-                        <div class="col-lg-4 px-4 mb-2">
+                        <!-- <div class="col-lg-4 px-4 mb-2">
                             <div class="faq-general">
                                 <div class="section-title pb-3 text-center text-lg-start">
                                     <p class="mb-1 pink">Vos Questions</p>
@@ -700,17 +1183,14 @@
                                                 <button class="accordion-button collapsed fw-semibold p-0" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                                     aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                                    Je suis à l'étranger, comment puis-je y participer
                                                 </button>
                                             </p>
                                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body bg-lightgrey p-6">Phasellus quis diam sed ligula
-                                                    sagittis tempus
-                                                    malesuada sed eros. Quisque elementum, diam et pellentesque volutpat,
-                                                    ligula diam suscipit
-                                                    ligula, sit amet hendrerit arcu ipsum eu nulla. Morbi sed molestie
-                                                    nulla, ac viverra turpis.
+                                                <div class="accordion-body bg-lightgrey p-6">
+                                                    Quel que soit le pays où vous vous trouvez, vous pouvez participer à cet évènement. Il vous suffit de vous inscrire en ligne et de suivre les instructions qui vous seront communiquées par mail. 
+
                                                 </div>
                                             </div>
                                         </div>
@@ -719,17 +1199,14 @@
                                                 <button class="accordion-button collapsed  fw-semibold p-0" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                                     aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                                    Comment puis-je obtenir mon badge d'accès sur place ?
                                                 </button>
                                             </p>
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body bg-lightgrey p-6">Placeholder content for this
-                                                    accordion, which is
-                                                    intended to demonstrate the <code>.accordion-flush</code> class. This is
-                                                    the second item's
-                                                    accordion body. Let's imagine this being filled with some actual
-                                                    content.</div>
+                                                <div class="accordion-body bg-lightgrey p-6">
+                                                    Une fois présent sur place et après avoir justifié de votre identité, vous pourrez retirer votre badge d'accès à l'entrée de la Fondation Félix HOUPHOUËT-BOIGNY pour la Recherche de la Paix.
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
@@ -737,39 +1214,22 @@
                                                 <button class="accordion-button collapsed fw-semibold p-0" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                                     aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                                    Je ne fais pas parti de la Diaspora, puis-je y participer ?
                                                 </button>
                                             </p>
                                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body bg-lightgrey p-6">Lorem ipsum dolor sit amet,
-                                                    consectetur adipiscing elit. Curabitur interdum, arcu a accumsan
-                                                    vulputate, leo diam sodales mi, et bibendum mi nunc at lorem. Etiam ut
-                                                    nisi hendrerit,</div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <p class="accordion-header p-4">
-                                                <button class="accordion-button collapsed fw-semibold p-0" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1"
-                                                    aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseThree1" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body bg-lightgrey p-6">Lorem ipsum dolor sit amet,
-                                                    consectetur adipiscing elit. Curabitur interdum, arcu a accumsan
-                                                    vulputate, leo diam sodales mi, et bibendum mi nunc at lorem. Etiam ut
-                                                    nisi hendrerit,</div>
+                                                <div class="accordion-body bg-lightgrey p-6">
+                                                    Oui, cet évènement est ouvert à tous. Que vous soyez membre de la diaspora ou non, vous pouvez y participer. Toutefois ces informations ne seront qu'a titre informative pour vous et vous pourrez informer vos différents proches de la Diaspora.
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-8 align-self-center px-4">
-                            <div class="faq-form bg-white rounded shadow-lg p-6 mb-mi">
+                        </div> -->
+                        <div class="col-lg-12 align-self-center px-4">
+                            <div class="faq-form rounded shadow-lg p-6 mb-mi" style="background-color: #fefefe">
                                 <x-inscription-particulier></x-inscription-particulier>
                                 <p class="mt-6">
                                     Entreprise ? Cliquez <a href="{{ route('inscriptions') }}" class="text-blue">ici</a>
@@ -794,19 +1254,17 @@
                             <div class="col-lg-5 col-md-5 px-1">
                                 <div class="p-6 d-flex text-white w-100 h-100 rounded bg-pink ">
                                     <div class="justify-content-center align-self-center ms-6">
-                                        <h5 class="text-white pb-2">EVENT VENUE:</h5>
-                                        <p class="pb-5 m-0">Galleria mall conference center</p>
-                                        <h5 class="text-white pb-2">ADDRESS:</h5>
-                                        <p class="pb-5 m-0">19 By Pass NR, Bali, Indonesia, BC 22196</p>
-                                        <h5 class="text-white pb-2">RECEPTION INFO:</h5>
-                                        <p class="pb-5 m-0">Booking: (+62) 1919-2020</p>
-                                        <a>Get Directions</a>
+                                        <h5 class="text-white pb-2">ÉVÈNEMENT:</h5>
+                                        <p class="pb-5 m-0">Forum de la DIASPORA IVOIRIENNE 2024</p>
+                                        <h5 class="text-white pb-2">Lieu : </h5>
+                                        <p class="pb-5 m-0">Fondation Félix HOUPHOUËT-BOIGNY pour la Recherche de la Paix de Yamoussoukro</p>
+                                        <h5 class="text-white pb-2">INFOLINE:</h5>
+                                        <p class="pb-5 m-0">(+225) 00 00 00 00 00</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-7 px-1 py-2">
-                                <iframe height="400" class="rounded w-100"
-                                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(mangal%20bazar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                <iframe height="400" class="rounded w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15847.098594053849!2d-5.2640813!3d6.7972496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfb89728969f5ce1%3A0x9408210ed875b2dd!2sFondation%20F%C3%A9lix%20Houphou%C3%ABt%20Boigny%20pour%20la%20Recherche%20de%20la%20Paix!5e0!3m2!1sfr!2sci!4v1729563001017!5m2!1sfr!2sci"></iframe>
                             </div>
                         </div>
                     </div>

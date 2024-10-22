@@ -15,7 +15,6 @@
                     <li class="d-inline mx-2"><a href="{{route('Accueil')}}"><small>Accueil</small></a></li>
                     <li class="d-inline mx-2"><a href="{{route('Panelistes')}}"><small>Nos panelistes</small></a></li>
                     <li class="d-inline mx-2"><a href="{{route('Activities')}}"><small>Calendrier & activités</small></a></li>
-                    {{-- <li class="d-inline mx-2"><a href=""><small>Partenaires</small></a></li> --}}
                     <li class="d-inline mx-2"><a href="{{route("contact")}}"><small>Contact</small></a></li>
                 </ul>
             </div>

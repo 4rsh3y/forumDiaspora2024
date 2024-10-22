@@ -1,3 +1,15 @@
+.decal-2{
+    margin-left:2% !important
+}
+
+.p-justify {
+    text-align: justify;
+}
+
+.br-margin {
+    margin-bottom: 10% !important;
+}
+
 .text-shadow{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

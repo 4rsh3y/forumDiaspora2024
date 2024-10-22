@@ -18,33 +18,18 @@
     <div class="container">
         <div class="contact-inner text-center text-md-start">
             <div class="row g-md-5 gy-5 align-items-center">
-                <div class="col-lg-4 col-md-5">
-                    <div class="contact-event-info p-8 text-white h-100 rounded bg-pink">
-                        <div class="event-venue pb-5">
-                            <h5 class="text-white pb-2">EVENT VENUE:</h5>
-                            <p class="m-0">Galleria mall conference center</p>
-                        </div>
-                        <div class="address pb-5">
-                            <h5 class="text-white pb-2">ADDRESS:</h5>
-                            <p class="m-0">19 By Pass NR, Bali, Indonesia, BC 22196</p>
-                        </div>
-                        <div class="reception-info pb-5">
-                            <h5 class="text-white pb-2">RECEPTION INFO:</h5>
-                            <p class="m-0">Booking: (+62) 1919-2020</p>
-                        </div>
-                        <div class="ticket-info pb-5">
-                            <h5 class="text-white pb-2">Ticket INFO:</h5>
-                            <p class="m-0">Booking: (+62) 1919-2020</p>
-                            <p class="m-0">Email: <a
-                                    href="https://htmldesigntemplates.com/cdn-cgi/l/email-protection"
-                                    class="__cf_email__"
-                                    data-cfemail="7f1a091a110b1a113f121e1613511c1012">[email&#160;protected]</a></p>
-                        </div>
-                        <div class="direction-link">
-                            <a>Get Directions</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-5 px-1">
+                                <div class="p-6 d-flex text-white w-100 h-100 rounded bg-pink ">
+                                    <div class="justify-content-center align-self-center ms-6">
+                                        <h5 class="text-white pb-2">ÉVÈNEMENT:</h5>
+                                        <p class="pb-5 m-0">Forum de la DIASPORA IVOIRIENNE 2024</p>
+                                        <h5 class="text-white pb-2">Lieu : </h5>
+                                        <p class="pb-5 m-0">Fondation Félix HOUPHOUËT-BOIGNY pour la Recherche de la Paix de Yamoussoukro</p>
+                                        <h5 class="text-white pb-2">INFOLINE:</h5>
+                                        <p class="pb-5 m-0">(+225) 00 00 00 00 00</p>
+                                    </div>
+                                </div>
+                            </div>
                 <div class="col-lg-8 col-md-7">
                     <div class="contact-form">
                         <div class="form-title mb-4">
@@ -79,7 +64,7 @@
             </div>
             <div class="map-direction mt-5">
                 <iframe height="400" class="rounded w-100"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=+(mangal%20bazar)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15847.098594053849!2d-5.2640813!3d6.7972496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfb89728969f5ce1%3A0x9408210ed875b2dd!2sFondation%20F%C3%A9lix%20Houphou%C3%ABt%20Boigny%20pour%20la%20Recherche%20de%20la%20Paix!5e0!3m2!1sfr!2sci!4v1729563001017!5m2!1sfr!2sci"></iframe>
             </div>
         </div>
     </div>
